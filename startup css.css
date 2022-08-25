@@ -1,0 +1,57 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  font-size: 3rem;
+  color: #e2dbdb;
+}
+
+.buffer{
+  height: 10rem;
+}
+
+hr{
+  /*width: 5%;
+*/  margin: auto;
+  /*margin auto positions hr to center by taking equal space in left and right*/
+  border-color:#f05f44;
+  border-width: 4px;
+  max-width: 50px;
+  opacity: 0.8;
+  padding-bottom: 20px;
+  /*max width is maximum length of this thing*/
+}
+
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-xl{
+  /*to make the button large*/
+  padding:  1rem 2rem;
+
+}
+
+.btn-primary{
+  background-color: #f05f44;
+  border-color: #f05f44 ;
+  /*border color also to be added because css by default has primary btn color blue as border*/
+}
+
+.btn-primary:hover{
+  /*to make changes when we hover and avoid blue as it is primary btn*/
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+}
